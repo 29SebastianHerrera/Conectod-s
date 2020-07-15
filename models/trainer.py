@@ -5,9 +5,12 @@ class Trainer():
         self.lastName = lastName
         self.age = age
 
-        return {
-            'name': self.name,
-            'lastName': self.lastName,
-            'age': self.age
+    def to_json(self):
 
+        return {
+            'name': 'Sebastian',
+            'lastName': 'Herrera',
+            'age': 21,
         }
+
+
