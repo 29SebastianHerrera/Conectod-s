@@ -23,7 +23,7 @@ body {
 
 .card-signin .card-img-left {
   width: 45%;
-  /* Link to your background image using in the property below! */
+
   background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
   background-size: cover;
 }
@@ -67,7 +67,7 @@ body {
   display: block;
   width: 100%;
   margin-bottom: 0;
-  /* Override default `<label>` margin */
+
   line-height: 1.5;
   color: #495057;
   border: 1px solid transparent;
